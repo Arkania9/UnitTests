@@ -38,6 +38,15 @@
 		8E1EE365222994BA006DCA26 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1EE364222994BA006DCA26 /* Authentication.storyboard */; };
 		8E1EE3F2222994EF006DCA26 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E1EE3F1222994EF006DCA26 /* Localizable.strings */; };
 		8E1EE3F4222995B7006DCA26 /* MockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE3F3222995B6006DCA26 /* MockURLSession.swift */; };
+		8E1EE3FC22299A11006DCA26 /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE3F622299A11006DCA26 /* RegisterPresenter.swift */; };
+		8E1EE3FD22299A11006DCA26 /* RegisterWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE3F722299A11006DCA26 /* RegisterWorker.swift */; };
+		8E1EE3FE22299A11006DCA26 /* RegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE3F822299A11006DCA26 /* RegisterRouter.swift */; };
+		8E1EE3FF22299A11006DCA26 /* RegisterModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE3F922299A11006DCA26 /* RegisterModels.swift */; };
+		8E1EE40022299A11006DCA26 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE3FA22299A11006DCA26 /* RegisterViewController.swift */; };
+		8E1EE40122299A11006DCA26 /* RegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE3FB22299A11006DCA26 /* RegisterInteractor.swift */; };
+		8E1EE40322299A7D006DCA26 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE40222299A7D006DCA26 /* UIViewControllerExtensions.swift */; };
+		8E1EE40722299AE3006DCA26 /* RegisterInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE40522299AE3006DCA26 /* RegisterInteractorTests.swift */; };
+		8E1EE40822299AE3006DCA26 /* RegisterPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE40622299AE3006DCA26 /* RegisterPresenterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +93,15 @@
 		8E1EE364222994BA006DCA26 /* Authentication.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
 		8E1EE3F1222994EF006DCA26 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		8E1EE3F3222995B6006DCA26 /* MockURLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockURLSession.swift; sourceTree = "<group>"; };
+		8E1EE3F622299A11006DCA26 /* RegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
+		8E1EE3F722299A11006DCA26 /* RegisterWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterWorker.swift; sourceTree = "<group>"; };
+		8E1EE3F822299A11006DCA26 /* RegisterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRouter.swift; sourceTree = "<group>"; };
+		8E1EE3F922299A11006DCA26 /* RegisterModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModels.swift; sourceTree = "<group>"; };
+		8E1EE3FA22299A11006DCA26 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		8E1EE3FB22299A11006DCA26 /* RegisterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInteractor.swift; sourceTree = "<group>"; };
+		8E1EE40222299A7D006DCA26 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		8E1EE40522299AE3006DCA26 /* RegisterInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterInteractorTests.swift; sourceTree = "<group>"; };
+		8E1EE40622299AE3006DCA26 /* RegisterPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPresenterTests.swift; sourceTree = "<group>"; };
 		8F1F7E33FCA808F44768FF45 /* Pods-CompanyManagerUnitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompanyManagerUnitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CompanyManagerUnitTests/Pods-CompanyManagerUnitTests.release.xcconfig"; sourceTree = "<group>"; };
 		DB7A71EC828C7C5471D38839 /* Pods-CompanyManagerUnitTestsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompanyManagerUnitTestsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CompanyManagerUnitTestsTests/Pods-CompanyManagerUnitTestsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				8E1EE3482229925F006DCA26 /* Login */,
+				8E1EE40422299AE3006DCA26 /* Register */,
 				8E1EE21322298D4A006DCA26 /* Info.plist */,
 				8E1EE3F3222995B6006DCA26 /* MockURLSession.swift */,
 			);
@@ -181,6 +200,7 @@
 			children = (
 				8E1EE364222994BA006DCA26 /* Authentication.storyboard */,
 				8E1EE31E2229905D006DCA26 /* Login */,
+				8E1EE3F522299A01006DCA26 /* Register */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -237,6 +257,7 @@
 			children = (
 				8E1EE34222299212006DCA26 /* DateFormatterExtensions.swift */,
 				8E1EE356222993AA006DCA26 /* KeychainKeyExtensions.swift */,
+				8E1EE40222299A7D006DCA26 /* UIViewControllerExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -258,6 +279,28 @@
 				8E1EE3F1222994EF006DCA26 /* Localizable.strings */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		8E1EE3F522299A01006DCA26 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				8E1EE3F622299A11006DCA26 /* RegisterPresenter.swift */,
+				8E1EE3F722299A11006DCA26 /* RegisterWorker.swift */,
+				8E1EE3F822299A11006DCA26 /* RegisterRouter.swift */,
+				8E1EE3F922299A11006DCA26 /* RegisterModels.swift */,
+				8E1EE3FA22299A11006DCA26 /* RegisterViewController.swift */,
+				8E1EE3FB22299A11006DCA26 /* RegisterInteractor.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		8E1EE40422299AE3006DCA26 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				8E1EE40522299AE3006DCA26 /* RegisterInteractorTests.swift */,
+				8E1EE40622299AE3006DCA26 /* RegisterPresenterTests.swift */,
+			);
+			path = Register;
 			sourceTree = "<group>";
 		};
 		B58CDA39AF1500F514133A3F /* Frameworks */ = {
@@ -463,20 +506,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E1EE3FD22299A11006DCA26 /* RegisterWorker.swift in Sources */,
 				8E1EE3292229906B006DCA26 /* LoginViewController.swift in Sources */,
 				8E1EE3252229906B006DCA26 /* LoginPresenter.swift in Sources */,
 				8E1EE35F222993C4006DCA26 /* BackendManager.swift in Sources */,
 				8E1EE32A2229906B006DCA26 /* LoginInteractor.swift in Sources */,
+				8E1EE3FC22299A11006DCA26 /* RegisterPresenter.swift in Sources */,
 				8E1EE34622299222006DCA26 /* Token.swift in Sources */,
 				8E1EE3282229906B006DCA26 /* LoginModels.swift in Sources */,
 				8E1EE3362229917B006DCA26 /* Validation.swift in Sources */,
+				8E1EE40022299A11006DCA26 /* RegisterViewController.swift in Sources */,
 				8E1EE34322299212006DCA26 /* DateFormatterExtensions.swift in Sources */,
 				8E1EE3332229912F006DCA26 /* AppError.swift in Sources */,
 				8E1EE1FD22298D48006DCA26 /* AppDelegate.swift in Sources */,
 				8E1EE3272229906B006DCA26 /* LoginRouter.swift in Sources */,
 				8E1EE33D222991D9006DCA26 /* ErrorAlertViewController.swift in Sources */,
 				8E1EE35D222993C4006DCA26 /* RequestManager.swift in Sources */,
+				8E1EE3FE22299A11006DCA26 /* RegisterRouter.swift in Sources */,
+				8E1EE3FF22299A11006DCA26 /* RegisterModels.swift in Sources */,
 				8E1EE3262229906B006DCA26 /* LoginWorker.swift in Sources */,
+				8E1EE40322299A7D006DCA26 /* UIViewControllerExtensions.swift in Sources */,
+				8E1EE40122299A11006DCA26 /* RegisterInteractor.swift in Sources */,
 				8E1EE36122299402006DCA26 /* JSONMocksManager.swift in Sources */,
 				8E1EE357222993AA006DCA26 /* KeychainKeyExtensions.swift in Sources */,
 			);
@@ -490,8 +540,10 @@
 				8E1EE34722299222006DCA26 /* Token.swift in Sources */,
 				8E1EE34422299212006DCA26 /* DateFormatterExtensions.swift in Sources */,
 				8E1EE34C2229925F006DCA26 /* LoginPresenterTests.swift in Sources */,
+				8E1EE40722299AE3006DCA26 /* RegisterInteractorTests.swift in Sources */,
 				8E1EE34E2229925F006DCA26 /* LoginInteractorTests.swift in Sources */,
 				8E1EE33E222991D9006DCA26 /* ErrorAlertViewController.swift in Sources */,
+				8E1EE40822299AE3006DCA26 /* RegisterPresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
