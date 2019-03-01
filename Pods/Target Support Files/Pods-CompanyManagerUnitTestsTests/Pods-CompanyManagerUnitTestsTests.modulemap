@@ -1,0 +1,6 @@
+framework module Pods_CompanyManagerUnitTestsTests {
+  umbrella header "Pods-CompanyManagerUnitTestsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
