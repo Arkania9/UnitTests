@@ -6,7 +6,6 @@ target 'CompanyManagerUnitTests' do
   pod 'Unicorns'
   pod 'IQKeyboardManagerSwift'
   pod 'AlamofireImage'
-  pod 'Firebase/Core'
 
   target 'CompanyManagerUnitTestsTests' do
     inherit! :search_paths

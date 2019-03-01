@@ -1,0 +1,82 @@
+{
+  "token": {
+    "id": "C71980AA-CDDA-45E0-86B9-3C3F5B555017",
+    "expiresAt": "2019-01-04T15:38:49Z",
+    "userID": "BB239767-F412-4845-9A33-D75CF3D39CF3",
+    "token": "e51xWIe90PZarPj2ItyEhOJnYXr7MPWqwa8YxMj3Fkg="
+  },
+  
+  "success": {"isSuccess": true},
+  
+  "error": {"error": "errorValue"},
+  
+  "projects": [{"id": "ae0f557c-940b-4d0d-821b-ec91991ca48f","companyID":"ae0f557c-940b-4d0d-821b-ec91991ca48f","name": "Z", "avatarsURL": ["https://images.pexels.com/photos/789305/pexels-photo-789305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"], "usersCount": 1},
+               {"id": "ae0f557c-940b-4d0d-821b-ec91991ca48f","companyID":"ae0f557c-940b-4d0d-821b-ec91991ca48f", "name": "Ż", "avatarsURL": ["https://images.pexels.com/photos/789305/pexels-photo-789305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"], "usersCount": 1},
+               {"id": "ae0f557c-940b-4d0d-821b-ec91991ca48f","companyID":"ae0f557c-940b-4d0d-821b-ec91991ca48f", "name": "E", "avatarsURL": ["https://images.pexels.com/photos/789305/pexels-photo-789305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"], "usersCount": 1},
+               {"id": "ae0f557c-940b-4d0d-821b-ec91991ca48f","companyID":"ae0f557c-940b-4d0d-821b-ec91991ca48f", "name": "A1", "avatarsURL": ["https://images.pexels.com/photos/789305/pexels-photo-789305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"], "usersCount": 1},
+               {"id": "ae0f557c-940b-4d0d-821b-ec91991ca48f","companyID":"ae0f557c-940b-4d0d-821b-ec91991ca48f", "name": "A2", "avatarsURL": ["https://images.pexels.com/photos/789305/pexels-photo-789305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"], "usersCount": 1},
+               {"id": "ae0f557c-940b-4d0d-821b-ec91991ca48f","companyID":"ae0f557c-940b-4d0d-821b-ec91991ca48f", "name": "A3", "avatarsURL": [
+                                                                                                              "https://images.pexels.com/photos/789305/pexels-photo-789305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+                                                                                                              "https://images.pexels.com/photos/371160/pexels-photo-371160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+                                                                                                              "https://images.pexels.com/photos/289225/pexels-photo-289225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+                                                                                                              "https://media.licdn.com/dms/image/C5103AQGLM1ayEHl9gw/profile-displayphoto-shrink_200_200/0?e=1536796800&v=beta&t=UL0p0OL5ltEzMjL754PZv6xFucnDjdm8jC-0uWBAKKo",
+                                                                                                              "https://images.pexels.com/photos/573299/pexels-photo-573299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350"
+                                                                                                              ], "usersCount": 8},
+               {"id": "ae0f557c-940b-4d0d-821b-ec91991ca48f","companyID":"ae0f557c-940b-4d0d-821b-ec91991ca48f", "name": "Super mega important project", "avatarsURL": ["https://images.pexels.com/photos/789305/pexels-photo-789305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"], "usersCount": 1},
+               {"id": "ae0f557c-940b-4d0d-821b-ec91991ca48f","companyID":"ae0f557c-940b-4d0d-821b-ec91991ca48f", "name": "Worth zylions of dolars$", "avatarsURL":
+               ["https://media.licdn.com/dms/image/C5103AQGLM1ayEHl9gw/profile-displayphoto-shrink_200_200/0?e=1536796800&v=beta&t=UL0p0OL5ltEzMjL754PZv6xFucnDjdm8jC-0uWBAKKo",
+                "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+                ], "usersCount": 2},
+               {"id": "ae0f557c-940b-4d0d-821b-ec91991ca48f","companyID":"ae0f557c-940b-4d0d-821b-ec91991ca48f", "name": "😈 is my savior", "avatarsURL": ["https://images.pexels.com/photos/573299/pexels-photo-573299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350"], "usersCount": 1}],
+  
+  "users": [{"name": "Bartek", "position": "iOS Developer", "avatarURL": "https://media.licdn.com/dms/image/C5103AQGLM1ayEHl9gw/profile-displayphoto-shrink_200_200/0?e=1536796800&v=beta&t=UL0p0OL5ltEzMjL754PZv6xFucnDjdm8jC-0uWBAKKo"},
+            {"name": "Susan", "position": "Fast Typer", "avatarURL": "https://images.pexels.com/photos/407035/model-face-beautiful-black-and-white-407035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"},
+            {"name": "Kate", "position": "Sales manager", "avatarURL": "https://images.pexels.com/photos/289225/pexels-photo-289225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"},
+            {"name": "Peter", "position": "adnroid Developer", "avatarURL": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"},
+            {"name": "CTO", "position": "web Developer", "avatarURL": "https://images.pexels.com/photos/371160/pexels-photo-371160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"},
+            {"name": "Anonym", "position": "backend Developer", "avatarURL": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"},
+            {"name": "CTO2", "position": "non-working person", "avatarURL": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"},
+            {"name": "CEO", "position": "$$$$$", "avatarURL": "https://images.pexels.com/photos/789305/pexels-photo-789305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"},
+            {"name": "😈", "position": "savior", "avatarURL": "https://images.pexels.com/photos/573299/pexels-photo-573299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350"}],
+  
+  "companies": [{"id": "ae0f557c-940b-4d0d-821b-ec91991ca48f", "name": "Unicorns LTD",
+                "description": "Unicorn LTD is a fucking awesome company which trying to take over the world and give power to you, the pople ~ By Donald Trump ~~ By Bane. Join us and unleash your inner self!", "imageURL": "https://img.myloview.pl/fototapety/akwarela-unicorn-logo-400-68552802.jpg", "color": "f5b5de"},
+                {"id": "22f8f650-b0cc-4e93-85da-16a585a6c3d5", "name": "Random 4 Me",
+                "description": "Life is the game of chances", "imageURL": "http://questgarden.com/113/52/6/110217145213/images/dice.png", "color": "e5f290"},
+                {"id": "ad50332d-2c9e-4114-adbe-cc5d424c6470", "name": "Ready4s",
+                "description": "Yes, we are still exist", "imageURL": "https://static2.clutch.co/sites/default/files/logos/ready4s_mini_1-02.png", "color": "eeddac"},
+                {"id": "22f8f650-b0cc-4e93-85da-16a585a6c3d5", "name": "Heh 4 Me",
+                "description": "Life is the game of chances", "imageURL": "http://questgarden.com/113/52/6/110217145213/images/dice.png", "color": "f9cdd7"},
+                {"id": "ad50332d-2c9e-4114-adbe-cc5d424c6470", "name": "Trololo",
+                "description": "Yes, we are still exist", "imageURL": "https://static2.clutch.co/sites/default/files/logos/ready4s_mini_1-02.png", "color": "a9bad3"},
+                {"id": "22f8f650-b0cc-4e93-85da-16a585a6c3d5", "name": "Devil 4 Me",
+                "description": "Life is the game of chances", "imageURL": "http://questgarden.com/113/52/6/110217145213/images/dice.png", "color": "b3aef9"},
+                {"id": "ad50332d-2c9e-4114-adbe-cc5d424c6470", "name": "Omnomnom",
+                "description": "Yes, we are still exist", "imageURL": "https://static2.clutch.co/sites/default/files/logos/ready4s_mini_1-02.png", "color": "b192fe"}],
+  
+  "tasks": [{"id": "ae0f557c-940b-4d0d-821b-ec91991ca48f", "name": "AImportant task", "description": "Super important task"},
+            {"id": "ae0f557c-940b-4d0d-821c-ec91991ca48f", "name": "AImportant task", "description": "Super important task"},
+            {"id": "ae0f557c-940b-4d0d-821d-ec91991ca48f", "name": "AImportant task2", "description": "Super important task"},
+            {"id": "ae0f557c-940b-4d0d-821e-ec91991ca48f", "name": "ZImportant task", "description": "Super important task"},
+            {"id": "ae0f557c-940b-4d0d-821f-ec91991ca48f", "name": "WImportant task", "description": "Super important task"},
+            {"id": "ae0f557c-940b-4d0d-821g-ec91991ca48f", "name": "!Important task", "description": "Super important task"},
+            {"id": "ae0f557c-940b-4d0d-821h-ec91991ca48f", "name": "2Important task", "description": "Super important task"}],
+  "saveProject": {
+    "id": "22f8f650-b0cc-4e93-85da-16a585a6c3d5",
+    "companyID": "ad50332d-2c9e-4114-adbe-cc5d424c6470",
+    "name": "New project",
+    "description": "Project descriptiton",
+    "users": [],
+    "tasks": []
+  },
+  "saveCompany": {
+    "id": "22f8f650-b0cc-4e93-85da-16a585a6c3d5",
+    "name": "New project",
+    "description": "Project descriptiton",
+    "imageURL": "http://test.com/",
+    "users": [],
+    "projects": [],
+    "color": "f5b5de"
+  }
+            
+}

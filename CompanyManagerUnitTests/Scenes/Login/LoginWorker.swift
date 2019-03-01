@@ -7,5 +7,25 @@
 //
 
 import UIKit
+import Unicorns
 
-class LoginWorker {}
+class LoginWorker {
+    
+    struct LoginRequest {
+        let email: String
+        let password: String
+    }
+    
+    func login(request: LoginRequest, onSuccess: @escaping (Token) -> Void, onError: @escaping (AppError) -> Void) {
+        let decoder = JSONDecoder()
+        decoder.dateDecodingStrategy = .formatted(DateFormatter.appFullDateFormatter)
+        BackendManager.LoginRequest(email: request.email, password: request.password).execute(with: decoder,
+                                                                                              onSuccess: { token in
+                                                                                                onSuccess(token)
+        }, onError: { error in
+            onError(AppError(error: error))
+        })
+    }
+    
+}
+

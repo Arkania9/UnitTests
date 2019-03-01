@@ -1,0 +1,41 @@
+/* 
+  Localizable.strings
+  CompanyManagerUnitTests
+
+  Created by Kamil on 01/03/2019.
+  Copyright (c) 2019 Kamil Zając. All rights reserved.
+*/
+
+app_name = "Company Manager";
+app_description = "Let's get over you business";
+login = "Login";
+forgot_password_question = "Forgot password?";
+want_to_start = "Want to start?";
+signup_its_free = "Sign up, it's free!";
+email = "Email";
+password = "Password";
+first_name = "First name";
+last_name = "Last name";
+re_password = "Repeat password";
+register = "Register";
+create_company = "Create company";
+optional_referal_code = "Referal code (optional)";
+please_provide = "Please provide";
+or = "or";
+min = "Min";
+characters_required = "characters required";
+maximum_of = "Maximum of";
+characters_reached = "characters reached";
+only_letters = "Only letters";
+only_numbers = "Only numbers";
+only_leters_and_numbers = "Only letters and numbers";
+i_accept = "I accept";
+terms_and_conditions = "Terms and Conditions";
+password_confirm_password_should_equal = "Password and Confirm Password should be equal";
+forgot_password = "Forgot password";
+error = "Error";
+ok = "OK";
+please_fill_field = "Please fill the field ";
+please_enter_your_email = "Please enter your email";
+reset_password = "Reset Password";
+reset_password.sended = "Email with next steps and instructions was sent at your email";
