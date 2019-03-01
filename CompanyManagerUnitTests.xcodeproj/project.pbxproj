@@ -47,6 +47,18 @@
 		8E1EE40322299A7D006DCA26 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE40222299A7D006DCA26 /* UIViewControllerExtensions.swift */; };
 		8E1EE40722299AE3006DCA26 /* RegisterInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE40522299AE3006DCA26 /* RegisterInteractorTests.swift */; };
 		8E1EE40822299AE3006DCA26 /* RegisterPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE40622299AE3006DCA26 /* RegisterPresenterTests.swift */; };
+		8E1EE41022299BFD006DCA26 /* ForgotPasswordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE40A22299BFD006DCA26 /* ForgotPasswordPresenter.swift */; };
+		8E1EE41122299BFD006DCA26 /* ForgotPasswordWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE40B22299BFD006DCA26 /* ForgotPasswordWorker.swift */; };
+		8E1EE41222299BFD006DCA26 /* ForgotPasswordRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE40C22299BFD006DCA26 /* ForgotPasswordRouter.swift */; };
+		8E1EE41322299BFD006DCA26 /* ForgotPasswordModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE40D22299BFD006DCA26 /* ForgotPasswordModels.swift */; };
+		8E1EE41422299BFD006DCA26 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE40E22299BFD006DCA26 /* ForgotPasswordViewController.swift */; };
+		8E1EE41522299BFD006DCA26 /* ForgotPasswordInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE40F22299BFD006DCA26 /* ForgotPasswordInteractor.swift */; };
+		8E1EE41722299C6B006DCA26 /* CMFloatLabelTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE41622299C6B006DCA26 /* CMFloatLabelTextView.swift */; };
+		8E1EE41922299C82006DCA26 /* FloatLabelTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE41822299C82006DCA26 /* FloatLabelTextView.swift */; };
+		8E1EE41B22299CB3006DCA26 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE41A22299CB3006DCA26 /* UIViewExtensions.swift */; };
+		8E1EE41D22299CD7006DCA26 /* CMFloatLabelTextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE41C22299CD7006DCA26 /* CMFloatLabelTextLabel.swift */; };
+		8E1EE42122299D46006DCA26 /* ForgotPasswordInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE41F22299D46006DCA26 /* ForgotPasswordInteractorTests.swift */; };
+		8E1EE42222299D46006DCA26 /* ForgotPasswordPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EE42022299D46006DCA26 /* ForgotPasswordPresenterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +114,18 @@
 		8E1EE40222299A7D006DCA26 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		8E1EE40522299AE3006DCA26 /* RegisterInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterInteractorTests.swift; sourceTree = "<group>"; };
 		8E1EE40622299AE3006DCA26 /* RegisterPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPresenterTests.swift; sourceTree = "<group>"; };
+		8E1EE40A22299BFD006DCA26 /* ForgotPasswordPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordPresenter.swift; sourceTree = "<group>"; };
+		8E1EE40B22299BFD006DCA26 /* ForgotPasswordWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordWorker.swift; sourceTree = "<group>"; };
+		8E1EE40C22299BFD006DCA26 /* ForgotPasswordRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordRouter.swift; sourceTree = "<group>"; };
+		8E1EE40D22299BFD006DCA26 /* ForgotPasswordModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordModels.swift; sourceTree = "<group>"; };
+		8E1EE40E22299BFD006DCA26 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		8E1EE40F22299BFD006DCA26 /* ForgotPasswordInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordInteractor.swift; sourceTree = "<group>"; };
+		8E1EE41622299C6B006DCA26 /* CMFloatLabelTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMFloatLabelTextView.swift; sourceTree = "<group>"; };
+		8E1EE41822299C82006DCA26 /* FloatLabelTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatLabelTextView.swift; sourceTree = "<group>"; };
+		8E1EE41A22299CB3006DCA26 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		8E1EE41C22299CD7006DCA26 /* CMFloatLabelTextLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMFloatLabelTextLabel.swift; sourceTree = "<group>"; };
+		8E1EE41F22299D46006DCA26 /* ForgotPasswordInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordInteractorTests.swift; sourceTree = "<group>"; };
+		8E1EE42022299D46006DCA26 /* ForgotPasswordPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordPresenterTests.swift; sourceTree = "<group>"; };
 		8F1F7E33FCA808F44768FF45 /* Pods-CompanyManagerUnitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompanyManagerUnitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CompanyManagerUnitTests/Pods-CompanyManagerUnitTests.release.xcconfig"; sourceTree = "<group>"; };
 		DB7A71EC828C7C5471D38839 /* Pods-CompanyManagerUnitTestsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompanyManagerUnitTestsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CompanyManagerUnitTestsTests/Pods-CompanyManagerUnitTestsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -175,6 +199,7 @@
 		8E1EE21022298D4A006DCA26 /* CompanyManagerUnitTestsTests */ = {
 			isa = PBXGroup;
 			children = (
+				8E1EE41E22299D46006DCA26 /* ForgotPassword */,
 				8E1EE3482229925F006DCA26 /* Login */,
 				8E1EE40422299AE3006DCA26 /* Register */,
 				8E1EE21322298D4A006DCA26 /* Info.plist */,
@@ -199,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				8E1EE364222994BA006DCA26 /* Authentication.storyboard */,
+				8E1EE40922299BE3006DCA26 /* ForgotPassword */,
 				8E1EE31E2229905D006DCA26 /* Login */,
 				8E1EE3F522299A01006DCA26 /* Register */,
 			);
@@ -239,6 +265,9 @@
 			isa = PBXGroup;
 			children = (
 				8E1EE338222991B8006DCA26 /* ErrorAlert */,
+				8E1EE41622299C6B006DCA26 /* CMFloatLabelTextView.swift */,
+				8E1EE41C22299CD7006DCA26 /* CMFloatLabelTextLabel.swift */,
+				8E1EE41822299C82006DCA26 /* FloatLabelTextView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -258,6 +287,7 @@
 				8E1EE34222299212006DCA26 /* DateFormatterExtensions.swift */,
 				8E1EE356222993AA006DCA26 /* KeychainKeyExtensions.swift */,
 				8E1EE40222299A7D006DCA26 /* UIViewControllerExtensions.swift */,
+				8E1EE41A22299CB3006DCA26 /* UIViewExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -301,6 +331,28 @@
 				8E1EE40622299AE3006DCA26 /* RegisterPresenterTests.swift */,
 			);
 			path = Register;
+			sourceTree = "<group>";
+		};
+		8E1EE40922299BE3006DCA26 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				8E1EE40A22299BFD006DCA26 /* ForgotPasswordPresenter.swift */,
+				8E1EE40B22299BFD006DCA26 /* ForgotPasswordWorker.swift */,
+				8E1EE40C22299BFD006DCA26 /* ForgotPasswordRouter.swift */,
+				8E1EE40D22299BFD006DCA26 /* ForgotPasswordModels.swift */,
+				8E1EE40E22299BFD006DCA26 /* ForgotPasswordViewController.swift */,
+				8E1EE40F22299BFD006DCA26 /* ForgotPasswordInteractor.swift */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		8E1EE41E22299D46006DCA26 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				8E1EE41F22299D46006DCA26 /* ForgotPasswordInteractorTests.swift */,
+				8E1EE42022299D46006DCA26 /* ForgotPasswordPresenterTests.swift */,
+			);
+			path = ForgotPassword;
 			sourceTree = "<group>";
 		};
 		B58CDA39AF1500F514133A3F /* Frameworks */ = {
@@ -507,11 +559,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E1EE3FD22299A11006DCA26 /* RegisterWorker.swift in Sources */,
+				8E1EE41722299C6B006DCA26 /* CMFloatLabelTextView.swift in Sources */,
 				8E1EE3292229906B006DCA26 /* LoginViewController.swift in Sources */,
+				8E1EE41D22299CD7006DCA26 /* CMFloatLabelTextLabel.swift in Sources */,
 				8E1EE3252229906B006DCA26 /* LoginPresenter.swift in Sources */,
 				8E1EE35F222993C4006DCA26 /* BackendManager.swift in Sources */,
+				8E1EE41022299BFD006DCA26 /* ForgotPasswordPresenter.swift in Sources */,
 				8E1EE32A2229906B006DCA26 /* LoginInteractor.swift in Sources */,
+				8E1EE41322299BFD006DCA26 /* ForgotPasswordModels.swift in Sources */,
+				8E1EE41922299C82006DCA26 /* FloatLabelTextView.swift in Sources */,
 				8E1EE3FC22299A11006DCA26 /* RegisterPresenter.swift in Sources */,
+				8E1EE41422299BFD006DCA26 /* ForgotPasswordViewController.swift in Sources */,
 				8E1EE34622299222006DCA26 /* Token.swift in Sources */,
 				8E1EE3282229906B006DCA26 /* LoginModels.swift in Sources */,
 				8E1EE3362229917B006DCA26 /* Validation.swift in Sources */,
@@ -522,12 +580,16 @@
 				8E1EE3272229906B006DCA26 /* LoginRouter.swift in Sources */,
 				8E1EE33D222991D9006DCA26 /* ErrorAlertViewController.swift in Sources */,
 				8E1EE35D222993C4006DCA26 /* RequestManager.swift in Sources */,
+				8E1EE41122299BFD006DCA26 /* ForgotPasswordWorker.swift in Sources */,
+				8E1EE41522299BFD006DCA26 /* ForgotPasswordInteractor.swift in Sources */,
 				8E1EE3FE22299A11006DCA26 /* RegisterRouter.swift in Sources */,
 				8E1EE3FF22299A11006DCA26 /* RegisterModels.swift in Sources */,
 				8E1EE3262229906B006DCA26 /* LoginWorker.swift in Sources */,
+				8E1EE41B22299CB3006DCA26 /* UIViewExtensions.swift in Sources */,
 				8E1EE40322299A7D006DCA26 /* UIViewControllerExtensions.swift in Sources */,
 				8E1EE40122299A11006DCA26 /* RegisterInteractor.swift in Sources */,
 				8E1EE36122299402006DCA26 /* JSONMocksManager.swift in Sources */,
+				8E1EE41222299BFD006DCA26 /* ForgotPasswordRouter.swift in Sources */,
 				8E1EE357222993AA006DCA26 /* KeychainKeyExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -538,9 +600,11 @@
 			files = (
 				8E1EE3F4222995B7006DCA26 /* MockURLSession.swift in Sources */,
 				8E1EE34722299222006DCA26 /* Token.swift in Sources */,
+				8E1EE42122299D46006DCA26 /* ForgotPasswordInteractorTests.swift in Sources */,
 				8E1EE34422299212006DCA26 /* DateFormatterExtensions.swift in Sources */,
 				8E1EE34C2229925F006DCA26 /* LoginPresenterTests.swift in Sources */,
 				8E1EE40722299AE3006DCA26 /* RegisterInteractorTests.swift in Sources */,
+				8E1EE42222299D46006DCA26 /* ForgotPasswordPresenterTests.swift in Sources */,
 				8E1EE34E2229925F006DCA26 /* LoginInteractorTests.swift in Sources */,
 				8E1EE33E222991D9006DCA26 /* ErrorAlertViewController.swift in Sources */,
 				8E1EE40822299AE3006DCA26 /* RegisterPresenterTests.swift in Sources */,
