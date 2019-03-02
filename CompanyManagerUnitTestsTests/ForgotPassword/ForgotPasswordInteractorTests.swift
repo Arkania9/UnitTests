@@ -69,7 +69,7 @@ class ForgotPasswordInteractorTests: XCTestCase {
     Networking.session = mockSession
     let request = ForgotPassword.Request(email: "test@email.test")
     interactor.sendPassword(request: request)
-    XCTAssert(presenter.isForgotPasswordSuccessPresented, "User should be registered successfuly")
+    XCTAssert(presenter.isForgotPasswordSuccessPresented, "Reset password should be sent to the email address provided")
   }
   
   func testForgotPasswordFailure() {
@@ -77,7 +77,7 @@ class ForgotPasswordInteractorTests: XCTestCase {
     Networking.session = mockSession
     let request = ForgotPassword.Request(email: "test")
     interactor.sendPassword(request: request)
-    XCTAssert(presenter.isForgotPasswordErrorPresented, "User should be registered successfuly")
+    XCTAssert(presenter.isForgotPasswordErrorPresented, "Reset password should not be sent to the email address provided")
   }
   
 }

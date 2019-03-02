@@ -77,7 +77,7 @@ class ForgotPasswordPresenterTests: XCTestCase {
     let validationResponse = ValidationResponse(validated: false, message: "error")
     let response = ForgotPassword.Validate.Response(validationResponse: validationResponse, textFieldType: .email)
     presenter?.presentValidation(response: response)
-    XCTAssert(viewController.isValidationErrorDisplayed, "Validation success should be displayed")
+    XCTAssert(viewController.isValidationErrorDisplayed, "Validation error should be displayed")
   }
   
   func testValidationSuccessDisplay() {

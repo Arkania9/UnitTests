@@ -102,7 +102,7 @@ class RegisterInteractorTests: XCTestCase {
                                                 confirmPassword: "testPassword",
                                                 referalCode: nil)
     interactor.registerUser(request: request)
-    XCTAssert(presenter.isRegisterErrorPresented, "User should be registered successfuly")
+    XCTAssert(presenter.isRegisterErrorPresented, "User should not be be registered successfuly")
   }
   
   func testImagePickerClosedByCancel() {
